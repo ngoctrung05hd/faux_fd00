@@ -7,3 +7,5 @@ def get_response(user_input: str) -> str:
         return 'Well, silent?'
     elif 'hello' in lowered:
         return 'Hello'
+    else :
+        return ''
